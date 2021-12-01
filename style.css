@@ -1,8 +1,10 @@
+
 /* Main Site */
 
 * {
     background: lightblue;
     align-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div {
@@ -31,7 +33,67 @@ div.recipe_container {
     list-style: none;
 }
 
-.recipelist.items {
-    border: black;
+.recipelist {
+    line-height: 2em;
 }
+
+.items {
+    border: black;
+    font-size: 1em;
+    transition: ease-in-out 2ms;
+}
+
+.items:hover {
+    font-size: 2em;
+
+}
+
+.recipe_container.recipelist.items {
+
+    line-height: 5px;
+}
+/* recipe pages */
+
+.img_container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-style:ridge;
+    border-radius: 10px;
+}
+
+.recipe_image {
+    width: 100%;
+    height: auto;
+}
+
+.r_title {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;    
+}
+
+.serving_info {
+    border-style: double;
+    border-radius: 10px;
+}
+
+.ing_info {
+    border-style: double;
+    border-radius: 10px;
+}
+
+.instructions {
+    border-style: double;
+    border-radius: 10px; 
+}
+
+.nut_info {
+    border-style: double;
+    border-radius: 10px;
+}
+
 
